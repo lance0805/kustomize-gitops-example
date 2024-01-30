@@ -1,6 +1,6 @@
 commonLabels:
   app: demo
-
+commonAnnotationsEnvsubst: true
 resources:
 - deployment.yaml
 - service.yaml
