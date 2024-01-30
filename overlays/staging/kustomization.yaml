@@ -1,5 +1,5 @@
 namePrefix: staging-
-commonAnnotationsEnvsubst: true
+
 commonAnnotations:
   elestyle/app-version: ${ARGOCD_APP_REVISION_SHORT}
 commonLabels:
