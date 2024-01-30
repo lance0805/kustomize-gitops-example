@@ -1,4 +1,6 @@
 namePrefix: staging-
+commonAnnotations:
+  elestyle/app-version: $ARGOCD_APP_REVISION_SHORT
 commonLabels:
   variant: staging
 bases:
